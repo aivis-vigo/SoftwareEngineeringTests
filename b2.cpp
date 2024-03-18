@@ -11,7 +11,7 @@
 
 using namespace std;
 
-string removeExtraAdjacentSpace(string& line) {
+string removeExtraAdjacentSpace(string &line) {
     string result;
     bool is_space = false;
 

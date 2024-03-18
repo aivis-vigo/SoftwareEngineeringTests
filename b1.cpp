@@ -10,11 +10,11 @@
 
 using namespace std;
 
-int countExtraAdjacentSpaces(string& line) {
+int countExtraAdjacentSpaces(string &line) {
     int extra_spaces = 0;
     int consecutive_spaces = 0;
 
-    for (char character : line) {
+    for (char character: line) {
         if (character == ' ') {
             consecutive_spaces++;
         } else {
@@ -26,7 +26,7 @@ int countExtraAdjacentSpaces(string& line) {
     return extra_spaces;
 }
 
-int mains() {
+int main() {
     ifstream input_file;
     string input_path = "/Users/Aivis/CLionProjects/SoftwareEngineeringTests/with_spaces.txt";
     string current_line;
