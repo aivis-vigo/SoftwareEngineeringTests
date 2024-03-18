@@ -33,8 +33,8 @@ string removeExtraAdjacentSpace(string &line) {
 int main() {
     ifstream input_file;
     ofstream output_file;
-    string input_path = "/Users/Aivis/CLionProjects/SoftwareEngineeringTests/with_spaces.txt";
-    string output_path = "/Users/Aivis/CLionProjects/SoftwareEngineeringTests/without_spaces.txt";
+    string input_path = "/your/path/to/file";
+    string output_path = "/your/path/to/file";
     string current_line;
 
     input_file.open(input_path);

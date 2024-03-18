@@ -28,7 +28,7 @@ int countExtraAdjacentSpaces(string &line) {
 
 int main() {
     ifstream input_file;
-    string input_path = "/Users/Aivis/CLionProjects/SoftwareEngineeringTests/with_spaces.txt";
+    string input_path = "/your/path/to/file";
     string current_line;
 
     input_file.open(input_path);
